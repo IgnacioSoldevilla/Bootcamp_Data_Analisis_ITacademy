@@ -227,11 +227,14 @@ SELECT FORMAT(COUNT(*),0) AS total_records
 FROM transactions;
 
 
+-- Voy a borrar las tablas `american_users` y `european_users` pq ya solo utilizaré la tabla `total_users`:
+
+DROP TABLE IF EXISTS european_users;
+DESCRIBE european_users;
 
 
-
-
-
+DROP TABLE IF EXISTS american_users;
+DESCRIBE american_users;
 
 
 
@@ -240,6 +243,43 @@ FROM transactions;
 
 -- EJERCICIO 1.  *************** Realiza una subconsulta que muestre a todos los usuarios con más de 80 transacciones utilizando al menos 2 tablas. **********************************************************
 
+-- Respuesta 1.1: Usando Subconsulta NO correlacionada pero no me visualiza los transactions_number de cada user
+SELECT 
+  tu.id AS user_id,
+  tu.name,
+  tu.surname
+FROM total_users AS tu
+WHERE EXISTS (
+  SELECT t.user_id
+  FROM transactions AS t
+  WHERE tu.id = t.user_id
+  GROUP BY t.user_id
+  HAVING COUNT(*) > 80);
+
+
+
+
+-- Respuesta 1.2: Usando Subconsulta correlacionada para que me visualice tambien transactions_number
+SELECT tu.id AS user_id, tu.name, tu.surname,
+  (
+    SELECT COUNT(*) 
+    FROM transactions t 
+    WHERE t.user_id = tu.id
+  ) AS transactions_number
+FROM total_users AS tu
+WHERE (
+    SELECT COUNT(*) 
+    FROM transactions t 
+    WHERE t.user_id = tu.id
+) > 80
+ORDER BY transactions_number DESC;
+;
+
+
+
+
+
+-- Respuesta 2: Usando JOIN
 SELECT tu.id AS user_id , tu.name AS name, tu.surname AS surname, COUNT(t.user_id) AS transactions_number
 FROM total_users AS tu
 JOIN transactions AS t
