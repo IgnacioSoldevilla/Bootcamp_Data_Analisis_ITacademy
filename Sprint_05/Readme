@@ -1,4 +1,5 @@
-Esta carpeta va a contener el fichero pdf con los pantallazos de cada uno de los ejercicios del Sprint 05 correspondiente a Bases de datos No Relacionales y en concreto trabajaremos con la base de datos MongoDB y con su aplicación Compass.
+Esta carpeta va a contener el fichero pdf con los pantallazos de cada uno de los ejercicios del Sprint 05 correspondiente a Bases de datos No Relacionales y en concreto trabajaremos con la base de datos MongoDB
+y con su aplicación Compass.
 
 Trabajaremos con una base de datos que contiene colecciones relacionadas con una aplicación de entretenimiento cinematográfico:
 
@@ -8,3 +9,5 @@ sesiones: Guarda sesiones de usuario, incluyendo ID de usuario y tokens JWT para
 movies: Incluye detalles de películas, como trama, géneros, duración, elenco, comentarios, año de lanzamiento, directores, clasificación y premios.
 comments: Almacena comentarios de usuarios/as sobre películas, con información del autor/a del comentario, ID de la película, texto del comentario y la fecha.
 Realizarás algunas consultas que te pide el cliente/a, quien está midiendo si serás capaz o no de hacerte cargo de la parte analítica del proyecto vinculado con su base de datos.
+
+Se podria hacer este ejercicio tanto en el shell como en la aplicación. Yo voy a realizar este ejercicio usando unicamente la aplicación
