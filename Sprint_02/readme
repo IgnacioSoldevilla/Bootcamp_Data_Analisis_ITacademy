@@ -1,0 +1,14 @@
+Tarea S2.01. Nociones básicas SQL
+
+OBJETIVOS:
+Construir una base de datos relacional sencilla con MySQL.
+Realizar consultas únicamente con JOIN.
+Crear subconsultas SQL para mostrar información sin uso de JOIN.
+
+DESCRIPCION:
+Repasar las nociones básicas para el uso de la base de datos relacionales. 
+En este sprint, iniciarás tu experiencia práctica con una base de datos que contiene información de una empresa dedicada a la venta de productos online. 
+En esta actividad, te enfocarás en datos relacionados con las transacciones efectuadas y la información corporativa de las empresas que participaron.
+
+IMPORTANTE:
+Todas las transformaciones e importaciones que se te piden en esta tarea deben realizarse utilizando código SQL. NO SE PERMITE realizar los cambios utilizando el wizard.
