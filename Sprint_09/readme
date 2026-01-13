@@ -1,0 +1,25 @@
+Tarea S9.01. Creación de funciones, estructuras de datos y bucles
+
+OBJETIVOS:
+El objetivo de este sprint es consolidar los fundamentos de sintaxis de Python y conceptos generales de la programación como la creación de funciones reutilizables,
+el uso de diferentes estructuras de datos y el control de flujo y automatización.
+
+
+DESCRIPCION:
+Resolverás algunos problemas de la vida cotidiana aplicando las estructuras de datos y control en Python.
+
+Un cliente de la empresa en la que trabajas pide una lista de programas muy sencillos, pero que le facilitarían muchos procesos.
+
+Se te pedirá que programes varias funciones. Para realizar la entrega, deberás entregar tanto el código de la función:
+
+def funcioejemplo(variable1, variable2):
+
+resultado = variable1 + variable2 # sumamos las dos variables
+
+return resultado
+
+Como su ejecución para demostrar que funciona correctamente, enseñando su output:
+
+funcioejemplo(3, 8)
+
+Trate de que todo el código que generes sea lo más reproducible posible.
