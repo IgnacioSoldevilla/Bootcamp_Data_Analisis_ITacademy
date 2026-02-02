@@ -1,0 +1,18 @@
+Tarea S10.01. Analítica de datos en Pandas
+
+OBJETIVOS:
+
+El objetivo de este sprint es aplicar de forma práctica varias tareas de limpieza, resumen y analítica de datos utilizando la librería Pandas. 
+Adicionalmente también trabajarás en automatizar procesos y resolver problemas complejos.
+
+
+
+DESCRIPCION:
+
+En esta tarea te enfrentarás a un ejercicio de limpieza y analítica de datos.
+
+Tenemos un dataset proveniente de una encuesta a nuestros trabajadores y trabajadores, y debemos garantizar que los datos se procesen correctamente, tanto en formato como en legibilidad.
+
+Especial complejidad en el Nivel 3, ya que en este sprint es totalmente diferente a otros sprints que has hecho hasta ahora, ya que son ejercicios más abstractos que requieren pelearse bastante. 
+No siguen con el mismo dataset de los niveles anteriores, sino que te plantean dos situaciones nuevas totalmente distintas entre sí.
+
