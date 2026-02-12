@@ -1,0 +1,14 @@
+Tarea S11.01. Visualización de Datos con Python y Power BI
+
+OBJETIVOS:
+
+El objetivo es que practiques cómo elegir las funciones de visualización adecuadas según las variables e interpretes los resultados con criterio analítico, sin generar dataframes adicionales innecesarios.
+
+
+
+DESCRIPCION:
+
+Esta práctica integra el uso de Python con las librerías Pandas, Matplotlib, Seaborn o Plotly, 
+así como su integración con Power BI. Trabajarás todo el proceso desde la conexión a 
+MySQL, la creación de visualizaciones avanzadas en Python y finalmente la incorporación de 
+estas visualizaciones a un informe dinámico en Power BI.
