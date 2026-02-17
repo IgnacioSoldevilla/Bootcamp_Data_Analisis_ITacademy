@@ -1,0 +1,22 @@
+Tarea S12.01. APIS REST
+
+OBJETIVOS:
+
+Su principal objetivo es que pueda poner en práctica todo lo aprendido hasta ahora, 
+consolidando los conceptos de manera guiada y práctica.
+
+
+DESCRIPCION:
+
+Aplicarás lo aprendido sobre APIs REST, métodos HTTP y códigos de estado, 
+utilizando APIs públicas para consultar datos, filtrarlos y finalmente 
+guardarlos en un DataFrame de pandas.
+
+
+RECURSOS:
+
+Nivel 1: https://jsonplaceholder.typicode.com/
+
+Nivel 2: https://github.com/public-apis/public-apis
+
+Nivel 3: https://opendata-ajuntament.barcelona.cat/ca/desenvolupadors#APIS
